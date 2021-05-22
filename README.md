@@ -1,5 +1,5 @@
 # letsGetPrivate
-Website that will guide you through instructions to browse better and safer
+Website that will guide you through instructions to browse better and safer. **This is a work in progress**.
 
 # why?
 I am starting this project to make it easier for people to become/stay private in our online world. Today every corporation knows your every movement on the Internet if you don't protect yourself correctly.
