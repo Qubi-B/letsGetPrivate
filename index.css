@@ -1,0 +1,125 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* basic elements */
+body{
+    background-color: #111524;
+}
+h1, h3, p{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h1{
+    padding: 15px;
+}
+button:hover{
+    background-color: #232942;
+}
+.getStarted{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 250px;
+}
+.top{
+    height: 100%;
+    width: 100%;
+}
+.topText{
+    position: absolute;
+    animation: 1.5s ease-in-out 0s 1 textUp;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-wrap: initial;
+    min-width: 450px;
+}
+.topText h1{
+    font-size: 4.5vh;
+}
+.topText h3{
+    font-size: 2vh;
+}
+.startButton{
+    background-color: #111524;
+    border: 3px solid #0481c8;
+    animation: 3s ease-in-out 0s 1 btnSee;
+    border-radius: 1.25em;
+    height: 40px;
+    width: 120px;
+    color: white;
+    transition: .25s;
+    cursor: pointer;
+}
+.seeWhy{
+    background-color: #111524;
+    border: 3px solid #065aaf;
+    animation: 3s ease-in-out 0s 1 btnSee;
+    border-radius: 1.25em;
+    height: 40px;
+    width: 120px;
+    color: white;
+    transition: .25s;
+    cursor: pointer;
+}
+
+.why{
+    height: 100%;
+    width: 100%;
+}
+.why h1{
+    margin: 35px;
+}
+
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+
+@keyframes textUp {
+    0%{
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    100%{
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes btnSee {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
