@@ -130,7 +130,8 @@ h1{
 }
 .title{
     margin: 0;
-    padding: 0;
+    padding: 0px;
+    padding-top: 15px;
 }
 .container{
     text-align:center;
@@ -145,12 +146,41 @@ h1{
 .centerwrapper{
     margin: auto;
     width: auto;
-
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+	transform: translateX(-50%);
+    min-width: 900px;
 }
+
+/* responsive magic starts */
+@media(max-width: 900px){
+    /* some shit i dont even know why it works */
+    .centerwrapper{
+        min-width: 200px;
+    }
+
+    /* make 'em light up when on mobile cause theres no "hover" on mobile */
+    .basic{
+        box-shadow: 0 0 8px #00a2ff;
+    }    
+    .medium{
+        box-shadow: 0 0 8px #ffa600;
+    }
+    .ghost{
+        box-shadow: 0 0 8px #ea00f9;
+    }
+}
+@media(min-width: 900px) {
+    .antioverfill{
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+/* responsive magic ends */
+
+
 button:hover{
     background-color: #232942;
 }
