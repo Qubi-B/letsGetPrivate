@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Inconsolata';
+}
+
+/* basic elements */
+body{
+    background: linear-gradient(203deg, #1c2136, #111524);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 23s ease infinite;
+    -moz-animation: AnimationName 23s ease infinite;
+    animation: AnimationName 23s ease infinite;
+}
+
+h1, h3, p{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+p{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h1{
+    padding: 15px;
+}
+button:hover{
+    background-color: #232942;
+}
+.getStarted{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 250px;
+}
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+.step{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    word-wrap: initial;
+    min-width: 450px;
+    border: 3px solid #ffa600;
+    border-radius: 1em;
+    box-shadow: 0 0 8px #ffa600;
+    
+    width: 250px;
+    height: 325px;
+
+    padding: 0 10px;
+    margin: 10px;
+    
+    position: relative;
+}
+.topText h1{
+    font-size: 4.5vh;
+}
+.topText h3{
+    font-size: 2vh;
+}
+.doit{
+    background-color: #111524;
+    border: 3px solid #0481c8;
+    animation: 3s ease-in-out 0s 1 btnSee;
+    border-radius: 1.25em;
+    height: 40px;
+    width: 120px;
+    color: white;
+    transition: .25s;
+    cursor: pointer;
+}
+.skip{
+    background-color: #111524;
+    border: 3px solid #0481c8;
+    animation: 3s ease-in-out 0s 1 btnSee;
+    border-radius: 1.25em;
+    height: 40px;
+    width: 120px;
+    color: white;
+    transition: .25s;
+    cursor: pointer;
+}
+.btnwrp{
+    padding: 10px;
+}
+#go{
+    height: 100%;
+    width: 100%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:81% 0%}
+    50%{background-position:20% 100%}
+    100%{background-position:81% 0%}
+}
