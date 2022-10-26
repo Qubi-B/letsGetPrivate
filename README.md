@@ -1,3 +1,5 @@
+Archived - the project has been abandoned.
+
 # letsGetPrivate
 Website that will guide you through instructions to browse better and safer. **This is a work in progress**.
 
